@@ -18,15 +18,19 @@
 <!-- navigation -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   
+  <!-- Theme/Site Title and home link -->
   <a class="navbar-brand" href="<?php echo site_url('/') ?>"><?php bloginfo('title'); ?></a>
   
+  <!-- Responsive dropdown nav @media -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
   <span class="navbar-toggler-icon"></span>
   </button>
   
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+  <!-- right align nav links -->
     <div class="navbar-nav ml-auto">
   
+  <!-- nav links -->
       <a class="nav-item nav-link" href="<?php echo site_url('/') ?>">Home <span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link" href="<?php echo site_url('/about-us') ?>">About Us</a>
       <a class="nav-item nav-link" href="<?php echo site_url('/terms-and-conditions') ?>">T&Cs</a>
