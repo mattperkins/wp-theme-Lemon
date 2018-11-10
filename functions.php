@@ -2,7 +2,7 @@
 
 function lemon_files(){
 // main website javascript file
-// filename, dependencies(if none = NULL), verions number and do you want to load file before closing body tag, yes/true or no/false
+// filename, dependencies(none = NULL), version number, load file before closing body tag, yes=true/no=false
    wp_enqueue_script('lemon-js', get_theme_file_uri('/js/index.js'), NULL, '1.0', true);
 
 // bootstrap css
