@@ -11,6 +11,10 @@
 </head>
 <body>
 
+<!-- bootstrap main container -->
+ <div class="container">
+
+
 <!-- navigation -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   
@@ -21,9 +25,9 @@
   </button>
   
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
+    <div class="navbar-nav ml-auto">
   
-      <a class="nav-item nav-link active" href="<?php echo site_url('/') ?>">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="<?php echo site_url('/') ?>">Home <span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link" href="<?php echo site_url('/about-us') ?>">About Us</a>
       <a class="nav-item nav-link" href="<?php echo site_url('/terms-and-conditions') ?>">T&Cs</a>
     
@@ -33,6 +37,4 @@
   </div>
 </nav>
 
-<!-- bootstrap main container -->
- <div class="container">
 
