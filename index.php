@@ -8,8 +8,9 @@
  ?>
  <!-- blog title / home link -->
    <h2>
-   <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-   
+    <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+   </h2>
+  
  <!-- all posts -->
    <?php the_content(); 
  }
