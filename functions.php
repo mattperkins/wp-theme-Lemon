@@ -12,7 +12,12 @@ function lemon_files(){
    wp_enqueue_style('lemon_main_styles', get_stylesheet_uri());
 }
 
-// 
+// load css and js files
   add_action('wp_enqueue_scripts', 'lemon_files');
 
-?>
+function lemon_features(){
+  // add page title meta
+  add_theme_support('title-tag');
+}
+  add_action('after_setup_theme', 'lemon_features');
+
