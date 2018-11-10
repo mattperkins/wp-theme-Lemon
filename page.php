@@ -9,9 +9,11 @@ while(have_posts()) {
 the_title();
 ?></h1>
 
+<div class="well">
 <?php
 the_content();
 ?>
+</div>
 
 <?php }
 
