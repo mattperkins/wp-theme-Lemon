@@ -1,7 +1,6 @@
-console.log('connected');
+console.log('Developer Console open...');
 
 $(document).ready(function () {
-  //your code here
 
 // custom hamburger navigation
 
