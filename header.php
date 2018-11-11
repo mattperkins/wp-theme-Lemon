@@ -39,18 +39,29 @@
 
 </div>
   </button>
+
   
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
   <!-- right align nav links -->
     <div class="navbar-nav ml-auto">
   
-  <!-- nav links -->
-      <a class="nav-item nav-link" href="<?php echo site_url() ?>">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="<?php echo site_url('/about-us') ?>">About Us</a>
-      <a class="nav-item nav-link" href="<?php echo site_url('/terms-and-conditions') ?>">T&Cs</a>
-    
-      <!-- <a class="nav-item nav-link disabled" href="#">Disabled</a> -->
+
+
+<!-- dynamic nav links -->
+<ul id="menu">
+   <li <?php if ( is_single() || is_home() ) { echo 'class="current_page_item"'; } ?>>
+      <a href="<?php echo bloginfo('url'); ?>">Home</a>
+   </li>
+   <?php wp_list_pages('echo=1&sort_column=menu_order&depth=1&title_li=&exclude=804'); ?>
+</ul>
+
+
+
+  <!-- static nav link example -->
+     
+  <!-- <a class="nav-item nav-link" href="<?php echo site_url() ?>">Home</a> -->
   
+
     </div>
   </div>
 </nav>
