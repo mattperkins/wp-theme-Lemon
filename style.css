@@ -9,10 +9,16 @@ body{
  background-color: #f7f7f7;
 }
 
+/* correct BS default nav setting */
 .navbar{
  margin: 0 -15px;
 }
 
+ul, li{
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+}
 button{
  border: 0;
 }
@@ -21,7 +27,7 @@ button.removeBlueOutline{
 }
 
 
-/* custom hamburger and animation */
+/* custom hamburger icon */
 .hamburger_nav{
 overflow: hidden;
 margin:0;
@@ -29,6 +35,8 @@ padding:0;
 outline: none !important;
 border:none;
 }
+
+/* hamburger icon animation */
 
 #nav-mhweb-hamburger {
 width: 30px;
