@@ -20,21 +20,27 @@ ul, li{
  padding: 0;
 }
 
-button{
+/* fix ghost hot-clickable area out of animation range */
+button, .navbar-toggler, .collapsed{
+ padding: 0;
+ margin: 0;
  border: 0;
 }
+
 button.removeBlueOutline{
  outline: none;
+ padding: 0;
+ margin: 0;
+ border: 0;
 }
-
 
 /* custom hamburger icon */
 .hamburger_nav{
-overflow: hidden;
-margin:0;
-padding:0;
-outline: none !important;
-border:none;
+ overflow: hidden;
+ margin:0;
+ padding:0;
+ outline: none !important;
+ border:none;
 }
 
 /* hamburger icon animation */
@@ -43,7 +49,7 @@ border:none;
 width: 30px;
 height: 25px;
 position: relative;
-margin: 5px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
 -webkit-transform: rotate(0deg);
 -moz-transform: rotate(0deg);
 -o-transform: rotate(0deg);
