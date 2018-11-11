@@ -16,21 +16,35 @@
 
 
 <!-- navigation -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg bg-light">
   
   <!-- Theme/Site Title and home link -->
-  <a class="navbar-brand" href="<?php echo site_url('/') ?>"><?php bloginfo('title'); ?></a>
+  <a class="navbar-brand" href="<?php echo site_url() ?>"><?php bloginfo('title'); ?></a>
   
-  <!-- Responsive dropdown nav @media -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-  <span class="navbar-toggler-icon"></span>
-  </button>
+  <!-- Responsive dropdown nav @media 992px -->
+  <button class="removeBlueOutline navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+  
+  <!-- default BS hamburger -->
+  <!-- <span class="navbar-toggler-icon"></span> -->
 
+  <!-- custom hamburger -->
+  <div id="nav-mhweb-hamburger">
+
+     <span></span>
+     <span></span>
+     <span></span>
+     <span></span>
+     <span></span>
+     <span></span>
+
+  </div>
+  </button>
   
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
   <!-- right align nav links -->
-    <div class="navbar-nav ml-auto">
-  
+  <div class="navbar-nav ml-auto">
+
+
 
 
 <!-- dynamic nav links -->
