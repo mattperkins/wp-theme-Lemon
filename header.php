@@ -45,7 +45,7 @@
     <div class="navbar-nav ml-auto">
   
   <!-- nav links -->
-      <a class="nav-item nav-link" href="<?php echo site_url('/') ?>">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="<?php echo site_url() ?>">Home <span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link" href="<?php echo site_url('/about-us') ?>">About Us</a>
       <a class="nav-item nav-link" href="<?php echo site_url('/terms-and-conditions') ?>">T&Cs</a>
     
