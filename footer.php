@@ -1,4 +1,10 @@
 
+<footer class="site-footer">
+
+	<p>&copy; <?php bloginfo('name'); ?>  <?php echo date('Y'); ?></p>
+
+</footer>
+
 <!-- bootstrap main container -->
 </div>
 
@@ -10,3 +16,7 @@
 
 </body>
 </html>
+
+
+
+
