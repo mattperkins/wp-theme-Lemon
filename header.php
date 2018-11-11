@@ -48,7 +48,7 @@
 
 
 <!-- dynamic nav links -->
-<ul id="menu">
+<ul>
    <li <?php if ( is_single() || is_home() ) { echo 'class="current_page_item"'; } ?>>
       <a href="<?php echo bloginfo('url'); ?>">Home</a>
    </li>
