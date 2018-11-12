@@ -5,7 +5,11 @@ Author URI: @dormshed
 Version: 1.0;
 */
 :root{
+ /* GLOBALS */
+ --globalWidth: 873px;
+ /* COLOURS */
  --navLinkColor: #2299ff; 
+ --navBarBrandColor: #444;
 }
 
 body{
@@ -15,9 +19,21 @@ a{
  color: var(--navLinkColor);
 }
 
+
+/* wrapping div for all content */
+.container{
+ max-width: var(--globalWidth);
+ width: 90%;
+}
+
+
 /* correct BS default nav setting */
 .navbar{
  margin: 0 -15px;
+}
+.navbar-brand{
+ color: var(--navBarBrandColor);
+ text-transform: uppercase;
 }
 
 /* navbar responsive dropdown */
@@ -30,6 +46,36 @@ li{
  margin: 0;
  padding: 7px 0;
 }
+
+/* post title  */
+h2.post-title{
+ padding-bottom: 20px;
+}
+
+/* the content */
+.the-content{
+ min-height: 60vh;
+}
+.site-footer{
+ background-color: var(--navBarBrandColor);
+ color: var(--navLinkColor);
+ padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
