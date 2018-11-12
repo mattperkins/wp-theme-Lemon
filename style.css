@@ -14,10 +14,14 @@ body{
  margin: 0 -15px;
 }
 
-ul, li{
- list-style-type: none;
+ul{
  margin: 0;
  padding: 0;
+}
+li{
+ list-style-type: none;
+ margin: 0;
+ padding: 7px 0;
 }
 
 /* fix ghost hot-clickable area out of animation range */
