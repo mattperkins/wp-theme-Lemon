@@ -56,6 +56,8 @@ h2.post-title{
 .the-content{
  min-height: 60vh;
 }
+
+/* footer */
 .site-footer{
  background-color: var(--navBarBrandColor);
  color: var(--navLinkColor);
