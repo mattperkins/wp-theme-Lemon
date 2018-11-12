@@ -16,7 +16,7 @@
 
 
 <!-- navigation -->
-<nav class="navbar navbar-expand-lg bg-light">
+<nav class="navbar bg-light">
   
   <!-- Theme/Site Title and home link -->
   <a class="navbar-brand" href="<?php echo site_url() ?>"><?php bloginfo('title'); ?></a>
