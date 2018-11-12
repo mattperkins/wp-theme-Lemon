@@ -7,15 +7,19 @@
    the_post(); 
  ?>
  <!-- blog title / home link -->
-   <h2>
+   <h2 class="post-title">
     <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
    </h2>
   
  <!-- all posts -->
-   <?php the_content(); 
- }
+  <div class="the-content">
+    <?php the_content(); ?>
+  </div>
 
+<?php } ?>  
+<!-- end posts while loop -->
 
+<?php 
 // include footer.php
   get_footer();
 
