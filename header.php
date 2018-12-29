@@ -19,8 +19,11 @@
 <nav class="navbar bg-light">
   
   <!-- Theme/Site Title and home link -->
-  <a class="navbar-brand" href="<?php echo site_url() ?>"><?php bloginfo('title'); ?></a>
+  <h1><a class="navbar-brand" href="<?php echo site_url() ?>"><?php bloginfo('title'); ?></a></h1>
   
+  <h3 class="blog-subtitle">
+			<?php bloginfo('description'); ?>
+	</h3>
   <!-- Responsive dropdown nav @media 992px -->
   <button class="removeBlueOutline navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
   
