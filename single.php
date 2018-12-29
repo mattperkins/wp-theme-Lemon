@@ -11,8 +11,8 @@ if (have_posts()) :
 			<?php the_title(); ?>
 		</h2>
 
-		<div class="the-content">
-			<?php the_content(); ?>
+		<a href="<?php echo site_url() ?>"><div class="the-content">
+			<?php the_content(); ?></a>
 		</div>
 
 	</article>
