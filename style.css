@@ -9,7 +9,8 @@ Version: 1.0;
  --globalWidth: 873px;
  /* COLOURS */
  --background-color: #f7f7f7;
- --navLinkColor: #2299ff; 
+ /* --navLinkColor: #2299ff;  */
+ --navLinkColor: #333; 
  --navBarBrandColor: #444;
 }
 
