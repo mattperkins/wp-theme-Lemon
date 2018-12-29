@@ -13,7 +13,7 @@
   
  <!-- all posts -->
   <div class="the-content">
-    <?php the_content(); ?>
+    <a href="<?php the_permalink(); ?>"><?php the_content(); ?></a>
   </div>
 
 <?php } ?>  
