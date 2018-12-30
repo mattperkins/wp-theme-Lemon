@@ -7,9 +7,12 @@ while(have_posts()) {
 ?>
 
 <!-- WP title -->
-<h1><?php
-the_title();
-?></h1>
+<!-- remove so it doesnt conflict (double) nav menu drop down text -->
+
+<!-- <h1><?php
+// the_title();
+?></h1> -->
+
 
 <!-- WP content -->
 <div class="well">
